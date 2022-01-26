@@ -1,0 +1,32 @@
+HTML Page Below, Ctrl+/ for fast commenting in VSCode
+    HTML:
+    Used to structure content: 
+    HTML Tags: <p></p> paragraph tags , <a></a> anchor tags for links, <img> for image tags
+    <head></head> meta-data, not shown on the web-page, but essential information such as the title etc.
+    <body></body> rendered, and subsequently shown on the webpage
+    <p></p> = paragraph tags, sentences within the body go here
+    !DOCTYPE html To give the browser information, that the file is an HTML file
+    Note: Indentation isn't necessary in HTML (Markup Language - Skeleton of the website), it's just something that improves readibility of the code
+    Heading Tags- Represented by Numbers h1,h2,h3...h6, in order of importance
+    UL = Unordered Lists, OL - Ordered Lists
+    <div> divides the webpage into different sections, although has no visual effects, but handy in CSS
+    <br /> self-closing tags, <hr> <img>
+
+    Anchor Tags - <a href = hyper_link reference> Anchor Tags
+    Always, Relative File Locations are provided
+    HTML Forms
+    User Input Fields, type="text"
+    
+    CSS:
+    Selector: Declaration, Style Sheets
+    Use Web-Safe Fonts, Anchor Tags are automatically given underlines, remove them by text-decoration: none
+    Types of Elements:
+    Inline-Elements, Block-Level Elements. Inline-Elements and Block-Level Elements can be nested inside Block-Level Elements, but not the other-way around.
+    Margins and Padding:
+    Block-Level Elements can have Margins all around them, but In-line Elements can have Margins only to the left and right of them. 
+    
+    Note: Padding Collapse for Inline Elements: The padding can go on top of each-other in case of in-line elements if the page is shrinked/on different devices
+    Margin Collapse for Block-Level Elements: Two Margins of Block-Level Elements having a width of 'x' and 'y' such that x>y, would be spaced from each other by 'x', and not 'x+y' since the top margin of one and the bottom margin of the other collapse onto one another.
+    
+    Inline-Block: Best of Both Worlds
+    Default Browser (User Agent) Styles: Conventions for different HTML and CSS elements

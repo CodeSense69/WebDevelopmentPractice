@@ -1,0 +1,82 @@
+<html>
+<!DOCTYPE html> 
+<head>
+    <link rel="stylesheet" href = "styles1.css"> <!--Way of Adding CSS to HTML Website-->
+    <title>HTML 1st Website - Video_1</title>
+</head>
+<body>
+
+    <div>
+        <p>First <strong>Web-Page</strong></strong></p>
+        <p><small>Awesome</small>, <em>Hello World!</em></p>
+        <a href = https://www.bing.com/images/search?view=detailV2&ccid=UJEL1RMQ&id=39B0C5822DEEBDC066470FC0D18A1A23D1E0EDD4&thid=OIP.UJEL1RMQ5xuh-lMCLRE3WQHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2f3tleO8QtVTE%2fmaxresdefault.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.50910bd51310e71ba1fa53022d113759%3frik%3d1O3g0SMaitHADw%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=rick+roll&simid=608047329282621846&FORM=IRPRST&ck=3B7DCFE2B3615E75D6D135F4FAE75A9D&selectedIndex=0&ajaxhist=0&ajaxserp=0'>Duh, Get Informed</a>
+        <h1>Importance_most</h1>
+        <h2>Importance_lesser</h2>
+        <h6>Importance_least</h6>
+    </div>
+    <hr>
+    <div>
+        <ul>    
+            <li>Unordered Lists - No Numbers Associated So Unordered </li>
+            <li>Are Wrappers for the</li>
+            <li>Li Tag</li>
+        </ul>
+        <ol>    
+            <li>Ordered Lists -  Numbers Associated So Ordered </li>
+            <li>Are Wrappers for the</li>
+            <li>Li Tag as well</li>
+        </ol>
+    </div>
+    <img src = "SimpleMikeMeme.jfif" alt = "Mike Meme"><br>
+    <span>Way to add a CSS or JavaScript hook into HTML code - <br>Span Tags, look similar to Paragraph Tags but do not behave the same way.</span>
+    
+    <blockquote cite = 'https://www.rainymood.com/'>Sed Lyf :(</blockquote>
+    <strong><p style = 'color: purple' >Damn Noice, I see Colours!</p></strong>
+    <hr>
+    <!--Creating HTML Forms-->
+    <div>
+    <h1>HTML Forms Creation and Different Properties</h1>
+    <form >
+        <label for="Username">Enter Username:</label>
+        <input type="text" id="Username" name="Username" placeholder = 'Enter Your Username' required> <!--Required Fields are represented by the required parameter, which defaults to True-->
+        <br>
+        <label for='Email'>Enter the Email ID:</label>
+        <input type="email" id="Email" name="Username" placeholder = 'Enter Your Email' required>
+        <br>
+        <label for='PassWord'>Enter your Password:</label>
+        <input type="password" id="PassWord" name="Username" placeholder = 'Enter Your Password' required>
+    </form>
+    </div>
+    
+    <!--Radio Points-->
+    <div>
+        <form>
+            <p>Select Your Gender If Possible:</p>
+            <input type = 'radio' name = 'Gender' value = 'Male' id = 'Option-1'>
+            <label for="Option-1">Male</label><br>
+            <input type = 'radio' name = 'Gender' value = 'Female' id = 'Option-2'>
+            <label for="Option-2">Female</label><br>
+            <input type = 'radio' name = 'Gender' value = 'N.B.' id = 'Option-3'>
+            <label for="Option-3">N.B.</label><br>
+        </form><br>
+    
+    <!--Drop_Down_Menu-->
+    <form action="">
+        <label for="">Security Questions To Be Asked</label><br><br>
+        <select name="Questions" id="Questions">
+            <option value="Q1">What's the colour of your favourite animal?</option>
+            <option value="Q2">Which country do you currently reside in?</option>
+            <option value="Q3">No need for a Security Question Bozo</option>
+        </select><br><br>
+        <label for="AnswerForSQ">Answer the Question:</label>
+        <input type="text", id = "AnswerForSQ" name = "AnswerForSQ"><br><br>
+    </form>
+
+    <!--Text Area - Used for Long Comments/Biographies/Where the Input Box Wouldn't be Enough-->
+    <form action=""> <!--action attribute is for server-side processing (PHP)-->
+        <label for="Bio">Enter Your Biography!</label><br><br>
+        <textarea name="Bio" id="Bio" cols="30" rows="10" placeholder = 'Enter Your Bio in this Text Area'></textarea><br> <!--placeholder is better than writing place-holder text in_between the braces, since it's not real text and disappears as soon as text is written into the box by the user.-->
+        <input type="submit" value='Submit Button using Input Tag'>
+    </form> 
+</body>
+</html>
