@@ -1,0 +1,94 @@
+/*Videos 1-4*/
+h1{
+    color: springgreen;
+    background-color: #E9E9E9; /*Hex Codes Color Representation*/ 
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 60px;
+}
+p{
+    color: orange;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    line-height: 40px;
+/*Borders are block-level elements*/
+}
+ul{
+  /* border-style: dotted;
+  border-width: 4px;
+  border-color: crimson; */
+  border: 4px crimson dotted;
+  border-bottom: 4px green solid;
+  border-left: 8px dashed crimson; 
+}
+/* list-style-type Defaults to disc, and represents the shape of the bullet points in an UL 
+text-shadow: horizontal offset, vertical offset, color. Colors can also be represented by specifying color hex-codes instead of using preset colours provided*/
+li{
+    list-style-type: square;
+    text-shadow: 1px 1px rgb(241, 74, 8)
+}
+/* Convert Inline Elements to Block-Level elements and vice-versa, the browser automatically applies CSS rules (display:block) to block-level elements, but does not do so for in-line elements*/
+span{
+    /* In-line Element: display: block*/
+    margin: 20px;
+    padding: 30px;
+    display: inline-block
+}
+div{
+    /* Block Level Element: display: inline;*/
+    border: 2px solid purple;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(32, 17, 235) ;
+}
+
+/*Videos 5*/
+p.error{
+    color: rgb(224, 18, 18);
+}
+p.success.error{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px dashed red;
+}
+div#content{
+    background-color: rgb(226, 226, 226);
+    font-size: large ;
+}
+div p.error{
+    color: forestgreen ;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+a[href*=images]{
+    background-color: #3dd13d;
+    border: 2px solid blue;
+    padding: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href$='.com']{
+    background-color: #3dd13d;
+    border: 2px solid navajowhite;
+    padding: 4px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+/*Inheritance-HTML elements can inherit certain CSS properties that are applied to their parents. Specificity over-rides Inheritance/Inherited Values.*/
+/*When two values in seperate rule sets in a style sheet conflict, the value/attribute of the rule-set which is further down the style sheet takes precedence, and hence is called Cascading(waterfall-ish order of precedence).
+The above rule is over-riden only when the rule-set above is 'more specific' than the one down the cascade (for example, {div p} Vs {p}, {div p} is much more specific) and is calld Specificity.*/
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+p{
+    color: maroon;
+    text-decoration: none;
+}
+
+/*Videos 6 - Semantic Tags - Tells the browser the purpose of a particular tag/what information it carries with it <main> <section> <article> <aside> <header> <footer> etc.*/
+
